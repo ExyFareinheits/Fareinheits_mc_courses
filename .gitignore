@@ -17,6 +17,21 @@ dist-ssr
 .env.local
 .env.production
 
+# Database content and SQL files (never commit course content!)
+*.sql
+Java_mc_db/
+free1_server_basics/
+free2_plugins/
+paid3_network_architecture/
+paid4_anticheat_security/
+supabase/
+
+# Deployment docs (internal use only)
+DEPLOYMENT*.md
+PASSWORD_SECURITY_README.md
+PURCHASES_SETUP.md
+QUICK_DEPLOY.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
